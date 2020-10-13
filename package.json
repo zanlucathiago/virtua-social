@@ -5,8 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "dev": "cross-env NODE_ENV=development nodemon --inspect app",
-    "postinstall": "node ./scripts/post-install.js"
+    "dev": "cross-env NODE_ENV=development nodemon --inspect app"
   },
   "author": "Thiago Zanluca",
   "license": "MIT",
